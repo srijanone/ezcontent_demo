@@ -1,14 +1,14 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/local.blted10.com\/block\/6?_format=hal_json"
+            "href": "http:\/\/default\/block\/6?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/drupal.org\/rest\/type\/block_content\/text_block"
         },
         "http:\/\/drupal.org\/rest\/relation\/block_content\/text_block\/revision_user": [
             {
-                "href": "http:\/\/local.blted10.com\/user\/1?_format=hal_json"
+                "href": "http:\/\/default\/user\/3?_format=hal_json"
             }
         ]
     },
@@ -49,7 +49,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/local.blted10.com\/user\/1?_format=hal_json"
+                        "href": "http:\/\/default\/user\/3?_format=hal_json"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
@@ -57,7 +57,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "d1c91de0-a34f-4669-8795-172ed306de08"
+                        "value": "b89a6aaa-c0f3-43a5-ad45-9fdb0aabac20"
                     }
                 ]
             }
