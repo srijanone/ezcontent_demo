@@ -69,7 +69,7 @@
   ],
   "is_default": [
     {
-      "value": false,
+      "value": true,
       "lang": "en"
     }
   ],
