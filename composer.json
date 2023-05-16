@@ -11,7 +11,7 @@
         }
     },
     "require": {
-        "drupal/default_content": "^1.0@alpha"
+        "drupal/default_content": "^2.0@alpha"
     },
     "minimum-stability": "dev",
     "prefer-stable": true
