@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: ca8fe1bb-1050-4e25-84de-e6de5fdab6cd
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: gallery-default-icon.png
+  uri:
+    -
+      value: 'public://paragraphs_type_icon/gallery-default-icon.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 2767
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1694155035

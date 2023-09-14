@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 18eebb78-8b2e-4367-8cb4-a1f0b43ad0b6
+  default_langcode: en
+  depends:
+    b89a6aaa-c0f3-43a5-ad45-9fdb0aabac20: user
+default:
+  uid:
+    -
+      entity: b89a6aaa-c0f3-43a5-ad45-9fdb0aabac20
+  filename:
+    -
+      value: ezcontent_banner_sans_text.png
+  uri:
+    -
+      value: 'public://2020-04/ezcontent_banner_sans_text.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 477721
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1586421949

@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 058120e9-9d49-40e4-8863-52d9b3e555f2
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: card_list-default-icon.png
+  uri:
+    -
+      value: 'public://paragraphs_type_icon/card_list-default-icon.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 2552
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1694155035

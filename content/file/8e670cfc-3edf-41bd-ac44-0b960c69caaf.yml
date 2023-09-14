@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 8e670cfc-3edf-41bd-ac44-0b960c69caaf
+  default_langcode: en
+  depends:
+    b89a6aaa-c0f3-43a5-ad45-9fdb0aabac20: user
+default:
+  uid:
+    -
+      entity: b89a6aaa-c0f3-43a5-ad45-9fdb0aabac20
+  filename:
+    -
+      value: hero.png
+  uri:
+    -
+      value: 'public://2020-06/hero.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 6387
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1592373789

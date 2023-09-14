@@ -1,0 +1,43 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 91533e38-fca0-43f9-a3d7-f14fbdc715d7
+  bundle: image
+  default_langcode: en
+  depends:
+    b89a6aaa-c0f3-43a5-ad45-9fdb0aabac20: user
+    b96c236c-2dc9-466a-8a66-72ba769290fc: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: b89a6aaa-c0f3-43a5-ad45-9fdb0aabac20
+  name:
+    -
+      value: screen_shot_2020-05-30_at_12.04.08_am_2.png
+  created:
+    -
+      value: 1592152950
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: '| Drupal'
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_media_image:
+    -
+      entity: b96c236c-2dc9-466a-8a66-72ba769290fc
+      alt: ''
+      title: ''
+      width: 846
+      height: 464

@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: e9b7711e-2259-4f7f-a85e-b5de4263fd5d
+  default_langcode: en
+  depends:
+    b89a6aaa-c0f3-43a5-ad45-9fdb0aabac20: user
+default:
+  uid:
+    -
+      entity: b89a6aaa-c0f3-43a5-ad45-9fdb0aabac20
+  filename:
+    -
+      value: srijanhero_0.jpg
+  uri:
+    -
+      value: 'public://2020-06/srijanhero_0.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 25659
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1694156131

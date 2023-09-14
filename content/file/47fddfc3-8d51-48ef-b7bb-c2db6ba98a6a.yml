@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 47fddfc3-8d51-48ef-b7bb-c2db6ba98a6a
+  default_langcode: en
+  depends:
+    b89a6aaa-c0f3-43a5-ad45-9fdb0aabac20: user
+default:
+  uid:
+    -
+      entity: b89a6aaa-c0f3-43a5-ad45-9fdb0aabac20
+  filename:
+    -
+      value: gallery.png
+  uri:
+    -
+      value: 'public://2020-06/gallery.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 8855
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1592380358

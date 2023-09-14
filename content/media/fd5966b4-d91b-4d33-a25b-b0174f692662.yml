@@ -1,0 +1,43 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: fd5966b4-d91b-4d33-a25b-b0174f692662
+  bundle: image
+  default_langcode: en
+  depends:
+    b89a6aaa-c0f3-43a5-ad45-9fdb0aabac20: user
+    976f8864-efd5-4408-a2d2-5d73517c3678: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: b89a6aaa-c0f3-43a5-ad45-9fdb0aabac20
+  name:
+    -
+      value: headless_commerce.png
+  created:
+    -
+      value: 1586424030
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: '| Drupal'
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_media_image:
+    -
+      entity: 976f8864-efd5-4408-a2d2-5d73517c3678
+      alt: ''
+      title: ''
+      width: 1200
+      height: 600

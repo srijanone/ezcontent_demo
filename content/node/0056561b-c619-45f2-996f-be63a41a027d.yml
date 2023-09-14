@@ -1,0 +1,567 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 0056561b-c619-45f2-996f-be63a41a027d
+  bundle: article
+  default_langcode: en
+  depends:
+    b89a6aaa-c0f3-43a5-ad45-9fdb0aabac20: user
+    143121d1-6474-4022-a0eb-39277c096461: media
+    f5510e85-5902-4f3b-9392-ca0ae77e1e4d: media
+default:
+  revision_uid:
+    -
+      entity: b89a6aaa-c0f3-43a5-ad45-9fdb0aabac20
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: b89a6aaa-c0f3-43a5-ad45-9fdb0aabac20
+  title:
+    -
+      value: 'Card Component'
+  created:
+    -
+      value: 1592151621
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  moderation_state:
+    -
+      value: published
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: 'Card Component | Drupal'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: 'A card is a flexible and extensible content container. It chunks several different (but related) components of information into one digestible unit. Cards present a teaser image, title, summary, and link to additional details. Cards in ezContent can be displayed in two ways: 1) Horizontal Cards 2) Vertical Cards'
+    -
+      tag: link
+      attributes:
+        rel: canonical
+        href: 'https://drupal-demo-d9.ddev.site/article/card-component'
+    -
+      tag: meta
+      attributes:
+        name: '@type'
+        content: Article
+        group: schema_article
+        schema_metatag: true
+    -
+      tag: meta
+      attributes:
+        name: name
+        content: 'Card Component'
+        group: schema_article
+        schema_metatag: true
+    -
+      tag: meta
+      attributes:
+        name: headline
+        content: 'Card Component'
+        group: schema_article
+        schema_metatag: true
+    -
+      tag: meta
+      attributes:
+        name: datePublished
+        content: 'Sun, 06/14/2020 - 16:20'
+        group: schema_article
+        schema_metatag: true
+    -
+      tag: meta
+      attributes:
+        name: dateModified
+        content: 'Wed, 06/17/2020 - 08:04'
+        group: schema_article
+        schema_metatag: true
+    -
+      tag: meta
+      attributes:
+        name: isAccessibleForFree
+        content: 'True'
+        group: schema_article
+        schema_metatag: true
+    -
+      tag: meta
+      attributes:
+        name: author
+        content:
+          '@type': Person
+          '@id': 'https://drupal-demo-d9.ddev.site/user/3'
+          name: test-admin
+          url: 'https://drupal-demo-d9.ddev.site/user/3'
+        group: schema_article
+        schema_metatag: true
+    -
+      tag: meta
+      attributes:
+        name: publisher
+        content:
+          '@type': Person
+          '@id': 'https://drupal-demo-d9.ddev.site/user/3'
+          name: test-admin
+          url: 'https://drupal-demo-d9.ddev.site/user/3'
+        group: schema_article
+        schema_metatag: true
+    -
+      tag: meta
+      attributes:
+        name: mainEntityOfPage
+        content: 'https://drupal-demo-d9.ddev.site/article/card-component'
+        group: schema_article
+        schema_metatag: true
+  path:
+    -
+      alias: /article/card-component
+      langcode: en
+      pathauto: 1
+  field_content:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 868860bf-9008-4ab9-92d6-189ac13f1fe4
+          bundle: text
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1592151717
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_body:
+            -
+              value: "<p>A card is a flexible and extensible content container. It chunks several different (but related) components of information into one digestible unit. &nbsp;Cards present a teaser image, title, summary, and link to additional details. An Editor&nbsp;can add multiple cards and choose a layout for the group, like a Grid of 3xN<br />\r\n<br />\r\nCards in ezContent can be displayed in two ways:<br />\r\n1) &nbsp;Horizontal Cards&nbsp;<br />\r\n2) Vertical Cards</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>See Sample Card Component below:</p>\r\n"
+              format: basic_html
+              summary: ''
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: ab2a7c5b-2a48-435a-8ac5-f041b2e4b3c0
+          bundle: faq
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1592151733
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_faq_items:
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 402ce0f2-2956-4b2f-845d-aa07571b52f7
+                  bundle: faq_qa
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1592151733
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  field_answer:
+                    -
+                      value: "<p><strong>About Cards Component</strong></p>\r\n\r\n<ul>\r\n\t<li>Each card has Title, Short Title, Media Image, Summary, CTA link and a configurable layout option available</li>\r\n\t<li>An editor can choose to display a card with&nbsp;\r\n\t<ul>\r\n\t\t<li>Image first followed by Card Title, Summary and link</li>\r\n\t\t<li>Image as latter component</li>\r\n\t\t<li>Display cards in a 3X grid</li>\r\n\t</ul>\r\n\t</li>\r\n\t<li>An editor has the flexibility to add as many cards as required in the content</li>\r\n</ul>\r\n\r\n<p>&nbsp;</p>\r\n"
+                      format: basic_html
+                  field_question:
+                    -
+                      value: 'Use Case'
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 1e83ca27-ef4e-4d9d-aead-474f072a83d5
+                  bundle: faq_qa
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1592151752
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  field_answer:
+                    -
+                      value: "<p>Paragraph Type: Cards</p>\r\n\r\n<p><strong>Label:</strong>&nbsp;HCards&nbsp;<strong>Machine Name:&nbsp;</strong>card_list</p>\r\n\r\n<p><strong>Fields: </strong>Card, Layout, Link, Title, View Mode</p>\r\n"
+                      format: basic_html
+                  field_question:
+                    -
+                      value: 'Tech Notes'
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: d50a318a-510f-433f-b729-bece5409af9a
+                  bundle: faq_qa
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1592151778
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  field_answer:
+                    -
+                      value: "<p>The title is the only mandatory field</p>\r\n"
+                      format: basic_html
+                  field_question:
+                    -
+                      value: 'Required Fields'
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 12c8f556-3cc6-4639-a54f-6980287c9b51
+          bundle: card_list
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1592151871
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_card:
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 746fcbcd-587c-4b4f-869b-8dddc4d0409e
+                  bundle: card
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1592151871
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  field_link:
+                    -
+                      uri: 'internal:#'
+                      title: 'CTA Link'
+                      options: {  }
+                  field_media:
+                    -
+                      entity: 143121d1-6474-4022-a0eb-39277c096461
+                  field_short_title:
+                    -
+                      value: 'A card is a flexible and extensible content container. '
+                  field_summary:
+                    -
+                      value: "<p>It chunks several different (but related) components of information into one digestible unit. &nbsp;Cards present a teaser image, title, summary, and link to additional details. An Editor&nbsp;can add multiple cards and choose a layout for the group, like a Grid of 3xN</p>\r\n"
+                      format: basic_html
+                  field_text_background_color:
+                    -
+                      color: '#000000'
+                      opacity: 0.37
+                  field_text_position:
+                    -
+                      value: left
+                  field_title:
+                    -
+                      value: 'Text First  Card'
+                  layout_selection:
+                    -
+                      target_id: card_left_media
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 2307367e-3eae-434c-914d-d3ddc95edcea
+                  bundle: card
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1592151922
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  field_link:
+                    -
+                      uri: 'internal:#'
+                      title: 'CTA Link'
+                      options: {  }
+                  field_media:
+                    -
+                      entity: 143121d1-6474-4022-a0eb-39277c096461
+                  field_short_title:
+                    -
+                      value: 'A card is a flexible and extensible content container. '
+                  field_summary:
+                    -
+                      value: "<p>It chunks several different (but related) components of information into one digestible unit. &nbsp;Cards present a teaser image, title, summary, and link to additional details. An Editor&nbsp;can add multiple cards and choose a layout for the group, like a Grid of 3xN</p>\r\n"
+                      format: basic_html
+                  field_text_background_color:
+                    -
+                      color: '#000000'
+                      opacity: 0.37
+                  field_text_position:
+                    -
+                      value: left
+                  field_title:
+                    -
+                      value: 'Image First Card'
+                  layout_selection:
+                    -
+                      target_id: card_right_media
+          field_title:
+            -
+              value: 'Horizontal Cards'
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 8b558db2-8d33-4a4c-9920-353c26f3ae26
+          bundle: card_list
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1592151984
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_card:
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: df0a5ed1-24a1-49ea-a814-9973b931b2f5
+                  bundle: card
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1592151984
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  field_link:
+                    -
+                      uri: 'internal:#'
+                      title: 'CTA Link'
+                      options: {  }
+                  field_media:
+                    -
+                      entity: 143121d1-6474-4022-a0eb-39277c096461
+                  field_short_title:
+                    -
+                      value: 'A card is a flexible and extensible content container. '
+                  field_summary:
+                    -
+                      value: "<p>It chunks several different (but related) components of information into one digestible unit. &nbsp;Cards present a teaser image, title, summary, and link to additional details. An Editor&nbsp;can add multiple cards and choose a layout for the group, like a Grid of 3xN</p>\r\n"
+                      format: basic_html
+                  field_text_background_color:
+                    -
+                      color: '#000000'
+                      opacity: 0.37
+                  field_text_position:
+                    -
+                      value: left
+                  field_title:
+                    -
+                      value: '3x Layout Card One'
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: fb7456a1-639a-4237-b2a7-22df4619f4e2
+                  bundle: card
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1592152046
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  field_link:
+                    -
+                      uri: 'internal:#'
+                      title: 'CTA Link'
+                      options: {  }
+                  field_media:
+                    -
+                      entity: 143121d1-6474-4022-a0eb-39277c096461
+                  field_short_title:
+                    -
+                      value: 'A card is a flexible and extensible content container. '
+                  field_summary:
+                    -
+                      value: "<p>It chunks several different (but related) components of information into one digestible unit. &nbsp;Cards present a teaser image, title, summary, and link to additional details. An Editor&nbsp;can add multiple cards and choose a layout for the group, like a Grid of 3xN</p>\r\n"
+                      format: basic_html
+                  field_text_background_color:
+                    -
+                      color: '#000000'
+                      opacity: 0.37
+                  field_text_position:
+                    -
+                      value: left
+                  field_title:
+                    -
+                      value: '3x Layout Card Two'
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: b5c6947e-8751-4510-a872-3dc551f10501
+                  bundle: card
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1592152092
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  field_link:
+                    -
+                      uri: 'internal:#'
+                      title: 'CTA Link'
+                      options: {  }
+                  field_media:
+                    -
+                      entity: 143121d1-6474-4022-a0eb-39277c096461
+                  field_short_title:
+                    -
+                      value: 'A card is a flexible and extensible content container. '
+                  field_summary:
+                    -
+                      value: "<p>It chunks several different (but related) components of information into one digestible unit. &nbsp;Cards present a teaser image, title, summary, and link to additional details. An Editor&nbsp;can add multiple cards and choose a layout for the group, like a Grid of 3xN</p>\r\n"
+                      format: basic_html
+                  field_text_background_color:
+                    -
+                      color: '#000000'
+                      opacity: 0.37
+                  field_text_position:
+                    -
+                      value: left
+                  field_title:
+                    -
+                      value: '3x Layout Card Three'
+          field_title:
+            -
+              value: 'Vertical Cards'
+          view_mode_selection:
+            -
+              target_id: paragraph.cards_grid
+  field_social_sharing:
+    -
+      value: true
+  field_summary:
+    -
+      value: "A card is a flexible and extensible content container. It chunks several different (but related) components of information into one digestible unit.  Cards present a teaser image, title, summary, and link to additional details.\r\nCards in ezContent can be displayed in two ways:\r\n1)  Horizontal Cards \r\n2) Vertical Cards\r\n"
+  field_thumbnail:
+    -
+      entity: f5510e85-5902-4f3b-9392-ca0ae77e1e4d
+  field_yoast_seo:
+    -
+      status: '0'
+      focus_keyword: ''
+      title: ''
+      description: ''

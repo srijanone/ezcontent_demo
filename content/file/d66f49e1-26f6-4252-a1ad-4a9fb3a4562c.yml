@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: d66f49e1-26f6-4252-a1ad-4a9fb3a4562c
+  default_langcode: en
+  depends:
+    b89a6aaa-c0f3-43a5-ad45-9fdb0aabac20: user
+default:
+  uid:
+    -
+      entity: b89a6aaa-c0f3-43a5-ad45-9fdb0aabac20
+  filename:
+    -
+      value: screen_shot_2020-05-29_at_11.45.30_am.png
+  uri:
+    -
+      value: 'public://2020-06/screen_shot_2020-05-29_at_11.45.30_am.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 561024
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1694156131

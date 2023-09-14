@@ -1,0 +1,314 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: fdb87364-a55f-4b30-aeca-ed8ec9d47284
+  bundle: article
+  default_langcode: en
+  depends:
+    b89a6aaa-c0f3-43a5-ad45-9fdb0aabac20: user
+    94940fdf-606d-4a69-9b77-26c3d5533928: media
+default:
+  revision_uid:
+    -
+      entity: b89a6aaa-c0f3-43a5-ad45-9fdb0aabac20
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: b89a6aaa-c0f3-43a5-ad45-9fdb0aabac20
+  title:
+    -
+      value: 'Map Component'
+  created:
+    -
+      value: 1592152360
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  moderation_state:
+    -
+      value: published
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: 'Map Component | Drupal'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: 'The Map component lets you display a customized, interactive map, showing markers for one or more specified addresses in a Google map.'
+    -
+      tag: link
+      attributes:
+        rel: canonical
+        href: 'https://drupal-demo-d9.ddev.site/article/map-component'
+    -
+      tag: meta
+      attributes:
+        name: '@type'
+        content: Article
+        group: schema_article
+        schema_metatag: true
+    -
+      tag: meta
+      attributes:
+        name: name
+        content: 'Map Component'
+        group: schema_article
+        schema_metatag: true
+    -
+      tag: meta
+      attributes:
+        name: headline
+        content: 'Map Component'
+        group: schema_article
+        schema_metatag: true
+    -
+      tag: meta
+      attributes:
+        name: datePublished
+        content: 'Sun, 06/14/2020 - 16:32'
+        group: schema_article
+        schema_metatag: true
+    -
+      tag: meta
+      attributes:
+        name: dateModified
+        content: 'Wed, 06/17/2020 - 08:20'
+        group: schema_article
+        schema_metatag: true
+    -
+      tag: meta
+      attributes:
+        name: isAccessibleForFree
+        content: 'True'
+        group: schema_article
+        schema_metatag: true
+    -
+      tag: meta
+      attributes:
+        name: author
+        content:
+          '@type': Person
+          '@id': 'https://drupal-demo-d9.ddev.site/user/3'
+          name: test-admin
+          url: 'https://drupal-demo-d9.ddev.site/user/3'
+        group: schema_article
+        schema_metatag: true
+    -
+      tag: meta
+      attributes:
+        name: publisher
+        content:
+          '@type': Person
+          '@id': 'https://drupal-demo-d9.ddev.site/user/3'
+          name: test-admin
+          url: 'https://drupal-demo-d9.ddev.site/user/3'
+        group: schema_article
+        schema_metatag: true
+    -
+      tag: meta
+      attributes:
+        name: mainEntityOfPage
+        content: 'https://drupal-demo-d9.ddev.site/article/map-component'
+        group: schema_article
+        schema_metatag: true
+  path:
+    -
+      alias: /article/map-component
+      langcode: en
+      pathauto: 1
+  field_content:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: ec27d3b7-701f-4a98-b678-35d4a68b3f39
+          bundle: text
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1592152426
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_body:
+            -
+              value: "<p>The Map component lets you display a customized, interactive map, showing markers for one or more specified addresses in a Google map. It allows you to add Title, description, and link.</p>\r\n"
+              format: basic_html
+              summary: ''
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 52a5aad3-60f8-4040-bb4d-ff19fec0af90
+          bundle: faq
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1592152433
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_faq_items:
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 649d7521-82a6-41a8-b96f-2bf0eee02a38
+                  bundle: faq_qa
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1592152433
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  field_answer:
+                    -
+                      value: "<p>&nbsp;</p>\r\n\r\n<ul>\r\n\t<li>Each map has Title, Short Title, Body, Google Map, CTA link.</li>\r\n\t<li>As many map items as needed can be added</li>\r\n\t<li>The location to display in the map must be informed</li>\r\n\t<li>Map items can be edited or deleted</li>\r\n\t<li>Users can see the map in full-screen mode</li>\r\n\t<li>Users can zoom in/ zoom out with +/- buttons or with the mouse wheel</li>\r\n</ul>\r\n\r\n<p>&nbsp;</p>\r\n"
+                      format: basic_html
+                  field_question:
+                    -
+                      value: 'Use Case'
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 6572a659-6441-4067-9552-b8036b25adbb
+                  bundle: faq_qa
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1592152448
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  field_answer:
+                    -
+                      value: "<p>Paragraph Type: Map</p>\r\n\r\n<p><strong>Label:</strong>&nbsp;Map&nbsp;<strong>Machine Name:&nbsp;</strong>map</p>\r\n\r\n<p><strong>Fields: </strong>Google Map, Info Body, Info Title, Link, Short title</p>\r\n"
+                      format: basic_html
+                  field_question:
+                    -
+                      value: 'Tech Notes'
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 22024917-ec00-480e-9589-cc3ba90e7190
+                  bundle: faq_qa
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1592152461
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  field_answer:
+                    -
+                      value: "<p>Google Map is the only required field,which would pull the interactive map</p>\r\n"
+                      format: basic_html
+                  field_question:
+                    -
+                      value: 'Required Fields'
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 4438dc97-2a1b-4ae9-b784-a4e1b3030c40
+          bundle: map
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1592152485
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_body:
+            -
+              value: "<p>Corporate and Development offices UK</p>\r\n"
+              format: basic_html
+              summary: ''
+          field_link:
+            -
+              uri: 'internal:#'
+              title: 'Contact Us '
+              options: {  }
+          field_map:
+            -
+              value: 'Srijan Technologies UK'
+          field_title:
+            -
+              value: 'Srijan Technologies, UK'
+  field_social_sharing:
+    -
+      value: true
+  field_summary:
+    -
+      value: 'The Map component lets you display a customized, interactive map, showing markers for one or more specified addresses in a Google map.'
+  field_thumbnail:
+    -
+      entity: 94940fdf-606d-4a69-9b77-26c3d5533928
+  field_yoast_seo:
+    -
+      status: '0'
+      focus_keyword: ''
+      title: ''
+      description: ''

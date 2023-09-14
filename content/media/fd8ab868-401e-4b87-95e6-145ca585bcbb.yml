@@ -1,0 +1,35 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: fd8ab868-401e-4b87-95e6-145ca585bcbb
+  bundle: tweet
+  default_langcode: en
+  depends:
+    b89a6aaa-c0f3-43a5-ad45-9fdb0aabac20: user
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: b89a6aaa-c0f3-43a5-ad45-9fdb0aabac20
+  created:
+    -
+      value: 1592152681
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: '| Drupal'
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  embed_code:
+    -
+      value: 'https://twitter.com/Srijan/status/1266345920788000769?s=20'

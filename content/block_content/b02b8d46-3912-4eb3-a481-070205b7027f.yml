@@ -1,0 +1,63 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: b02b8d46-3912-4eb3-a481-070205b7027f
+  bundle: referenced_cards
+  default_langcode: en
+  depends:
+    6735431b-ab78-47f7-8327-d4ed69c56dbd: node
+    a8227b8d-4eed-44c2-95a8-458fee40f246: node
+    0056561b-c619-45f2-996f-be63a41a027d: node
+    216d6db1-cf66-409a-b9b8-9caa38f9ad0c: node
+    fdb87364-a55f-4b30-aeca-ed8ec9d47284: node
+    5dad0277-d2a3-40f7-a4cf-bf79c9832e42: node
+    e6ad0284-3663-4e24-b758-4227d2e933b7: node
+    87086464-0682-4d2b-9834-165e9c6ec0c6: node
+    486b2c52-6338-43a6-b92a-6ac66842603d: node
+    3a28d4a0-39cf-4f34-9d8e-dca26f937efa: node
+    c23e50a8-87ed-45d1-8924-7a503eaf18bb: node
+    ed2d6edb-1809-44aa-b3ac-813f5807ee66: node
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: 'EzContent Components '
+  reusable:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: '| Drupal'
+  field_article:
+    -
+      entity: 6735431b-ab78-47f7-8327-d4ed69c56dbd
+    -
+      entity: a8227b8d-4eed-44c2-95a8-458fee40f246
+    -
+      entity: 0056561b-c619-45f2-996f-be63a41a027d
+    -
+      entity: 216d6db1-cf66-409a-b9b8-9caa38f9ad0c
+    -
+      entity: fdb87364-a55f-4b30-aeca-ed8ec9d47284
+    -
+      entity: 5dad0277-d2a3-40f7-a4cf-bf79c9832e42
+    -
+      entity: e6ad0284-3663-4e24-b758-4227d2e933b7
+    -
+      entity: 87086464-0682-4d2b-9834-165e9c6ec0c6
+    -
+      entity: 486b2c52-6338-43a6-b92a-6ac66842603d
+    -
+      entity: 3a28d4a0-39cf-4f34-9d8e-dca26f937efa
+    -
+      entity: c23e50a8-87ed-45d1-8924-7a503eaf18bb
+    -
+      entity: ed2d6edb-1809-44aa-b3ac-813f5807ee66

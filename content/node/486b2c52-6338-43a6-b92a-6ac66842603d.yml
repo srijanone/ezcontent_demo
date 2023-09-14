@@ -1,0 +1,304 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 486b2c52-6338-43a6-b92a-6ac66842603d
+  bundle: article
+  default_langcode: en
+  depends:
+    b89a6aaa-c0f3-43a5-ad45-9fdb0aabac20: user
+    252b562f-f564-4399-a5f9-b9a156fd604f: media
+default:
+  revision_uid:
+    -
+      entity: b89a6aaa-c0f3-43a5-ad45-9fdb0aabac20
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: b89a6aaa-c0f3-43a5-ad45-9fdb0aabac20
+  title:
+    -
+      value: Quote
+  created:
+    -
+      value: 1592153022
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  moderation_state:
+    -
+      value: published
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: 'Quote | Drupal'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: 'Quotes can help add content from another source within an article.'
+    -
+      tag: link
+      attributes:
+        rel: canonical
+        href: 'https://drupal-demo-d9.ddev.site/article/quote'
+    -
+      tag: meta
+      attributes:
+        name: '@type'
+        content: Article
+        group: schema_article
+        schema_metatag: true
+    -
+      tag: meta
+      attributes:
+        name: name
+        content: Quote
+        group: schema_article
+        schema_metatag: true
+    -
+      tag: meta
+      attributes:
+        name: headline
+        content: Quote
+        group: schema_article
+        schema_metatag: true
+    -
+      tag: meta
+      attributes:
+        name: datePublished
+        content: 'Sun, 06/14/2020 - 16:43'
+        group: schema_article
+        schema_metatag: true
+    -
+      tag: meta
+      attributes:
+        name: dateModified
+        content: 'Wed, 06/17/2020 - 08:23'
+        group: schema_article
+        schema_metatag: true
+    -
+      tag: meta
+      attributes:
+        name: isAccessibleForFree
+        content: 'True'
+        group: schema_article
+        schema_metatag: true
+    -
+      tag: meta
+      attributes:
+        name: author
+        content:
+          '@type': Person
+          '@id': 'https://drupal-demo-d9.ddev.site/user/3'
+          name: test-admin
+          url: 'https://drupal-demo-d9.ddev.site/user/3'
+        group: schema_article
+        schema_metatag: true
+    -
+      tag: meta
+      attributes:
+        name: publisher
+        content:
+          '@type': Person
+          '@id': 'https://drupal-demo-d9.ddev.site/user/3'
+          name: test-admin
+          url: 'https://drupal-demo-d9.ddev.site/user/3'
+        group: schema_article
+        schema_metatag: true
+    -
+      tag: meta
+      attributes:
+        name: mainEntityOfPage
+        content: 'https://drupal-demo-d9.ddev.site/article/quote'
+        group: schema_article
+        schema_metatag: true
+  path:
+    -
+      alias: /article/quote
+      langcode: en
+      pathauto: 1
+  field_content:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: ddbd1056-5c89-4f82-91e6-a253cbcc70a4
+          bundle: text
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1592153080
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_body:
+            -
+              value: "<p>Content Writer can add or pull in quotes&amp; content from 3rd party specifying the author or source of the content. See it in action below!</p>\r\n"
+              format: basic_html
+              summary: ''
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 6e5a9f70-4580-48a5-9ba5-39e25e0057fc
+          bundle: quote
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1592153092
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_quote:
+            -
+              value: 'Open Source, full-featured Drupal Distribution with many content management features out of the box, including rich content, content staging and AI/ ML assisted workflows'
+          field_source:
+            -
+              value: 'EzContent Team'
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 4720f21e-c95f-4017-a258-25dfc227b2a9
+          bundle: faq
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1592153109
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_faq_items:
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 7173e957-79b4-441a-9a04-2af6e39d05da
+                  bundle: faq_qa
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1592153109
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  field_answer:
+                    -
+                      value: "<p>Content Writer can add or pull in quotes&amp; content from 3rd party specifying the author or source of the content. See it in action below!</p>\r\n"
+                      format: basic_html
+                  field_question:
+                    -
+                      value: 'Use Case'
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: bd2b78d5-3c89-4eec-8198-e3c6ad2907ce
+                  bundle: faq_qa
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1592153126
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  field_answer:
+                    -
+                      value: "<p>Paragraph Type: Quote</p>\r\n\r\n<p><strong>Label:</strong>&nbsp;Quote&nbsp;<strong>Machine Name: </strong>field_quote</p>\r\n\r\n<p><strong>Fields:&nbsp;</strong>Quotes, Source</p>\r\n"
+                      format: basic_html
+                  field_question:
+                    -
+                      value: 'Tech Notes'
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 8e21d9d4-19bc-4397-b196-14d068bf6695
+                  bundle: faq_qa
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1592153142
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  field_answer:
+                    -
+                      value: "<p>The source&nbsp;is the only mandatory field</p>\r\n"
+                      format: basic_html
+                  field_question:
+                    -
+                      value: 'Required Fields'
+  field_social_sharing:
+    -
+      value: true
+  field_summary:
+    -
+      value: 'Quotes can help add content from another source within an article.'
+  field_thumbnail:
+    -
+      entity: 252b562f-f564-4399-a5f9-b9a156fd604f
+  field_yoast_seo:
+    -
+      status: '0'
+      focus_keyword: ''
+      title: ''
+      description: ''

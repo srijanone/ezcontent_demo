@@ -1,0 +1,144 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 3a28d4a0-39cf-4f34-9d8e-dca26f937efa
+  bundle: article
+  default_langcode: en
+  depends:
+    b89a6aaa-c0f3-43a5-ad45-9fdb0aabac20: user
+    c2eee473-4284-4464-90c9-639994a647ca: media
+default:
+  revision_uid:
+    -
+      entity: b89a6aaa-c0f3-43a5-ad45-9fdb0aabac20
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: b89a6aaa-c0f3-43a5-ad45-9fdb0aabac20
+  title:
+    -
+      value: 'FAQ component'
+  created:
+    -
+      value: 1592153174
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  moderation_state:
+    -
+      value: published
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: 'FAQ component | Drupal'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: 'The purpose of an FAQ is generally to provide information on frequent questions or concerns. ezContent provide toggle functionality to users to check the answers for the questions'
+    -
+      tag: link
+      attributes:
+        rel: canonical
+        href: 'https://drupal-demo-d9.ddev.site/article/faq-component'
+    -
+      tag: meta
+      attributes:
+        name: '@type'
+        content: Article
+        group: schema_article
+        schema_metatag: true
+    -
+      tag: meta
+      attributes:
+        name: name
+        content: 'FAQ component'
+        group: schema_article
+        schema_metatag: true
+    -
+      tag: meta
+      attributes:
+        name: headline
+        content: 'FAQ component'
+        group: schema_article
+        schema_metatag: true
+    -
+      tag: meta
+      attributes:
+        name: datePublished
+        content: 'Sun, 06/14/2020 - 16:46'
+        group: schema_article
+        schema_metatag: true
+    -
+      tag: meta
+      attributes:
+        name: dateModified
+        content: 'Wed, 06/17/2020 - 08:23'
+        group: schema_article
+        schema_metatag: true
+    -
+      tag: meta
+      attributes:
+        name: isAccessibleForFree
+        content: 'True'
+        group: schema_article
+        schema_metatag: true
+    -
+      tag: meta
+      attributes:
+        name: author
+        content:
+          '@type': Person
+          '@id': 'https://drupal-demo-d9.ddev.site/user/3'
+          name: test-admin
+          url: 'https://drupal-demo-d9.ddev.site/user/3'
+        group: schema_article
+        schema_metatag: true
+    -
+      tag: meta
+      attributes:
+        name: publisher
+        content:
+          '@type': Person
+          '@id': 'https://drupal-demo-d9.ddev.site/user/3'
+          name: test-admin
+          url: 'https://drupal-demo-d9.ddev.site/user/3'
+        group: schema_article
+        schema_metatag: true
+    -
+      tag: meta
+      attributes:
+        name: mainEntityOfPage
+        content: 'https://drupal-demo-d9.ddev.site/article/faq-component'
+        group: schema_article
+        schema_metatag: true
+  path:
+    -
+      alias: /article/faq-component
+      langcode: en
+      pathauto: 1
+  field_social_sharing:
+    -
+      value: true
+  field_summary:
+    -
+      value: 'The purpose of an FAQ is generally to provide information on frequent questions or concerns. ezContent provide toggle functionality to users to check the answers for the questions'
+  field_thumbnail:
+    -
+      entity: c2eee473-4284-4464-90c9-639994a647ca
+  field_yoast_seo:
+    -
+      status: '0'
+      focus_keyword: ''
+      title: ''
+      description: ''

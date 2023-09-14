@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: bbfd74e7-972f-4719-b6b1-238709486eb5
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: faq_qa-default-icon.png
+  uri:
+    -
+      value: 'public://paragraphs_type_icon/faq_qa-default-icon.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 4496
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1694155035

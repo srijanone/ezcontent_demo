@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 80738226-6f89-4127-95dc-b7ac2683015a
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: form-default-icon.png
+  uri:
+    -
+      value: 'public://paragraphs_type_icon/form-default-icon.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 3415
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1694155035

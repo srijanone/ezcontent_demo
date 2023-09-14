@@ -1,0 +1,402 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 6735431b-ab78-47f7-8327-d4ed69c56dbd
+  bundle: article
+  default_langcode: en
+  depends:
+    b89a6aaa-c0f3-43a5-ad45-9fdb0aabac20: user
+    2823895f-4403-47b2-9f1f-baccdb023e35: media
+    5490d380-0ef5-42d0-ba89-c47a81b53b21: media
+default:
+  revision_uid:
+    -
+      entity: b89a6aaa-c0f3-43a5-ad45-9fdb0aabac20
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: b89a6aaa-c0f3-43a5-ad45-9fdb0aabac20
+  title:
+    -
+      value: 'Hero Banner Component'
+  created:
+    -
+      value: 1592150055
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  moderation_state:
+    -
+      value: published
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: 'Hero Banner Component | Drupal'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: 'The hero image is often the first visual element a visitor encounters on the site; it presents an overview of the site''s most important content. A hero component on ezContent consists of the featured image, title, and text. (e.g. a rotating list of images and/or topics). The text overlay of Hero is completely configurable including text position, text color, opacity etc.'
+    -
+      tag: link
+      attributes:
+        rel: canonical
+        href: 'https://drupal-demo-d9.ddev.site/article/hero-banner-component'
+    -
+      tag: meta
+      attributes:
+        name: '@type'
+        content: Article
+        group: schema_article
+        schema_metatag: true
+    -
+      tag: meta
+      attributes:
+        name: name
+        content: 'Hero Banner Component'
+        group: schema_article
+        schema_metatag: true
+    -
+      tag: meta
+      attributes:
+        name: headline
+        content: 'Hero Banner Component'
+        group: schema_article
+        schema_metatag: true
+    -
+      tag: meta
+      attributes:
+        name: datePublished
+        content: 'Sun, 06/14/2020 - 15:54'
+        group: schema_article
+        schema_metatag: true
+    -
+      tag: meta
+      attributes:
+        name: dateModified
+        content: 'Wed, 06/17/2020 - 06:03'
+        group: schema_article
+        schema_metatag: true
+    -
+      tag: meta
+      attributes:
+        name: isAccessibleForFree
+        content: 'True'
+        group: schema_article
+        schema_metatag: true
+    -
+      tag: meta
+      attributes:
+        name: author
+        content:
+          '@type': Person
+          '@id': 'https://drupal-demo-d9.ddev.site/user/3'
+          name: test-admin
+          url: 'https://drupal-demo-d9.ddev.site/user/3'
+        group: schema_article
+        schema_metatag: true
+    -
+      tag: meta
+      attributes:
+        name: publisher
+        content:
+          '@type': Person
+          '@id': 'https://drupal-demo-d9.ddev.site/user/3'
+          name: test-admin
+          url: 'https://drupal-demo-d9.ddev.site/user/3'
+        group: schema_article
+        schema_metatag: true
+    -
+      tag: meta
+      attributes:
+        name: mainEntityOfPage
+        content: 'https://drupal-demo-d9.ddev.site/article/hero-banner-component'
+        group: schema_article
+        schema_metatag: true
+  path:
+    -
+      alias: /article/hero-banner-component
+      langcode: en
+      pathauto: 1
+  field_content:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 010cb07d-c843-4ff7-bce7-e8af7710eee5
+          bundle: hero_media
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1592150438
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_card:
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 7ef034f2-82b6-4380-8ca2-ed22ab5d48a8
+                  bundle: card
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1592150438
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  field_link:
+                    -
+                      uri: 'internal:/'
+                      title: 'CTA Link'
+                      options: {  }
+                  field_media:
+                    -
+                      entity: 2823895f-4403-47b2-9f1f-baccdb023e35
+                  field_short_title:
+                    -
+                      value: 'We Welcome you at Srijan'
+                  field_subhead:
+                    -
+                      value: 'Thank you for watching video'
+                  field_summary:
+                    -
+                      value: "<p>Summary of the hero text can be added here.</p>\r\n"
+                      format: basic_html
+                  field_text_background_color:
+                    -
+                      color: '#000000'
+                      opacity: 0.37
+                  field_text_position:
+                    -
+                      value: right
+                  field_title:
+                    -
+                      value: 'Hero Banner Component Title'
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 7547cbf3-3b1e-461b-a675-bda918beb7d5
+          bundle: text
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1592150976
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_body:
+            -
+              value: "<p>Hero Component is the first CTA and most important component of any landing page. It&nbsp;can be treated as a banner when only a single media image is added. If multiple images are added, this is converted to the slider.</p>\r\n\r\n<p>Hero component consists of:&nbsp;</p>\r\n\r\n<ul>\r\n\t<li>Title</li>\r\n\t<li>Short title</li>\r\n\t<li>Media image</li>\r\n\t<li>Subhead</li>\r\n\t<li>Summary</li>\r\n\t<li>Link&nbsp;</li>\r\n</ul>\r\n\r\n<p>All the text components (title, short title, summary) are placed on the bottom of the Hero image. The Ezcontent gives a lot of flexibility to the editor to choose the background text color, an indentation of the text. An editor can also rearrange the slides by simple drag and drop.</p>\r\n\r\n<p>Please refer to the video below.</p>\r\n\r\n<p>Link is converted into a button, which serves as CTA button on the landing pages</p>\r\n"
+              format: basic_html
+              summary: ''
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: e614073d-1e7a-4f42-a927-66061a5e85f5
+          bundle: embed
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1592150990
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_script:
+            -
+              value: '<iframe width="560" height="315" src="https://www.youtube.com/embed/R_QLDIXytpw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+              format: scripts
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: db2b0deb-e739-44a4-8179-10b2ad07bd66
+          bundle: faq
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1592151081
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_faq_items:
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 7779fc7f-c3a2-4fe9-8218-f28209f2a901
+                  bundle: faq_qa
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1592151081
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  field_answer:
+                    -
+                      value: "<p>About Hero component</p>\r\n\r\n<ul>\r\n\t<li>Title, Short title, Subhead, Summary, and description can be entered</li>\r\n\t<li>Images can be uploaded via Entity Browser</li>\r\n\t<li>Link is converted into a button</li>\r\n\t<li>Users can see the text on top of each image</li>\r\n\t<li>An editor can&nbsp;choose the background text color, and align text center, left and right and rearrange slides.</li>\r\n\t<li>Images slide automatically</li>\r\n\t<li>As many images as needed can be added</li>\r\n</ul>\r\n\r\n<p>&nbsp;</p>\r\n"
+                      format: basic_html
+                  field_question:
+                    -
+                      value: UseCase
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 382b1393-0b31-4e1b-8e7b-f0c9e0656755
+                  bundle: faq_qa
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1592151100
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  field_answer:
+                    -
+                      value: "<p>Paragraph Type: Hero Media</p>\r\n\r\n<p><strong>Label:</strong> Hero Card <strong>Machine Name: </strong>field_card</p>\r\n"
+                      format: basic_html
+                  field_question:
+                    -
+                      value: 'Tech Notes'
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 88cc6641-7090-45fe-96dd-cdb74b438327
+                  bundle: faq_qa
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1592151122
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  field_answer:
+                    -
+                      value: "<p>Title is the only mandatory field</p>\r\n"
+                      format: basic_html
+                  field_question:
+                    -
+                      value: 'Required fields'
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: e67a9878-c3e3-40ba-b712-a054059ce5d7
+                  bundle: faq_qa
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1592151137
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  field_answer:
+                    -
+                      value: "<p>Placeholder link</p>\r\n"
+                      format: basic_html
+                  field_question:
+                    -
+                      value: 'See it in action'
+  field_social_sharing:
+    -
+      value: true
+  field_summary:
+    -
+      value: "The hero image is often the first visual element a visitor encounters on the site; it presents an overview of the site's most important content.\r\n\r\nA hero component on ezContent consists of the featured image, title, and text. (e.g. a rotating list of images and/or topics).\r\n\r\nThe text overlay of Hero is completely configurable including text position, text color, opacity etc."
+  field_thumbnail:
+    -
+      entity: 5490d380-0ef5-42d0-ba89-c47a81b53b21
+  field_yoast_seo:
+    -
+      status: '0'
+      focus_keyword: ''
+      title: ''
+      description: ''

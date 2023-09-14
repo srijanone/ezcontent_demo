@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 09d9f255-7956-4904-9840-88550a6da180
+  default_langcode: en
+  depends:
+    b89a6aaa-c0f3-43a5-ad45-9fdb0aabac20: user
+default:
+  uid:
+    -
+      entity: b89a6aaa-c0f3-43a5-ad45-9fdb0aabac20
+  filename:
+    -
+      value: card.png
+  uri:
+    -
+      value: 'public://2020-06/card.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 7688
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1592380998

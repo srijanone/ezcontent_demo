@@ -1,0 +1,43 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: c61c5291-d3b7-450d-9092-36294fdabe6a
+  bundle: image
+  default_langcode: en
+  depends:
+    b89a6aaa-c0f3-43a5-ad45-9fdb0aabac20: user
+    f5e39f1a-fb4e-4678-b41f-76ce07b61376: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: b89a6aaa-c0f3-43a5-ad45-9fdb0aabac20
+  name:
+    -
+      value: frontend_of_choice.png
+  created:
+    -
+      value: 1586422325
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: '| Drupal'
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_media_image:
+    -
+      entity: f5e39f1a-fb4e-4678-b41f-76ce07b61376
+      alt: ''
+      title: ''
+      width: 641
+      height: 361

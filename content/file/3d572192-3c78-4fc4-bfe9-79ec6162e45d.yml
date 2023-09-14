@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 3d572192-3c78-4fc4-bfe9-79ec6162e45d
+  default_langcode: en
+  depends:
+    b89a6aaa-c0f3-43a5-ad45-9fdb0aabac20: user
+default:
+  uid:
+    -
+      entity: b89a6aaa-c0f3-43a5-ad45-9fdb0aabac20
+  filename:
+    -
+      value: js.jpeg
+  uri:
+    -
+      value: 'public://2020-04/js.jpeg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 38595
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1586424568

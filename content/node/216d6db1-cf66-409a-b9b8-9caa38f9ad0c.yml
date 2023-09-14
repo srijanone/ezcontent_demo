@@ -1,0 +1,302 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 216d6db1-cf66-409a-b9b8-9caa38f9ad0c
+  bundle: article
+  default_langcode: en
+  depends:
+    b89a6aaa-c0f3-43a5-ad45-9fdb0aabac20: user
+    1b3c7017-f990-4088-a475-726827e37f7f: media
+default:
+  revision_uid:
+    -
+      entity: b89a6aaa-c0f3-43a5-ad45-9fdb0aabac20
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: b89a6aaa-c0f3-43a5-ad45-9fdb0aabac20
+  title:
+    -
+      value: 'Embed component'
+  created:
+    -
+      value: 1592152177
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  moderation_state:
+    -
+      value: published
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: 'Embed component | Drupal'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: 'Embed component embeds external content, provided by an external application or another source of interactive content such as a browser plug-in'
+    -
+      tag: link
+      attributes:
+        rel: canonical
+        href: 'https://drupal-demo-d9.ddev.site/article/embed-component'
+    -
+      tag: meta
+      attributes:
+        name: '@type'
+        content: Article
+        group: schema_article
+        schema_metatag: true
+    -
+      tag: meta
+      attributes:
+        name: name
+        content: 'Embed component'
+        group: schema_article
+        schema_metatag: true
+    -
+      tag: meta
+      attributes:
+        name: headline
+        content: 'Embed component'
+        group: schema_article
+        schema_metatag: true
+    -
+      tag: meta
+      attributes:
+        name: datePublished
+        content: 'Sun, 06/14/2020 - 16:29'
+        group: schema_article
+        schema_metatag: true
+    -
+      tag: meta
+      attributes:
+        name: dateModified
+        content: 'Wed, 06/17/2020 - 08:19'
+        group: schema_article
+        schema_metatag: true
+    -
+      tag: meta
+      attributes:
+        name: isAccessibleForFree
+        content: 'True'
+        group: schema_article
+        schema_metatag: true
+    -
+      tag: meta
+      attributes:
+        name: author
+        content:
+          '@type': Person
+          '@id': 'https://drupal-demo-d9.ddev.site/user/3'
+          name: test-admin
+          url: 'https://drupal-demo-d9.ddev.site/user/3'
+        group: schema_article
+        schema_metatag: true
+    -
+      tag: meta
+      attributes:
+        name: publisher
+        content:
+          '@type': Person
+          '@id': 'https://drupal-demo-d9.ddev.site/user/3'
+          name: test-admin
+          url: 'https://drupal-demo-d9.ddev.site/user/3'
+        group: schema_article
+        schema_metatag: true
+    -
+      tag: meta
+      attributes:
+        name: mainEntityOfPage
+        content: 'https://drupal-demo-d9.ddev.site/article/embed-component'
+        group: schema_article
+        schema_metatag: true
+  path:
+    -
+      alias: /article/embed-component
+      langcode: en
+      pathauto: 1
+  field_content:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 4b25c729-9570-4fb1-a926-5c6a483d2e1d
+          bundle: text
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1592152259
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_body:
+            -
+              value: "<p>Embed allows an editor&nbsp;to add any Embed code and render them as an external content o your own site.</p>\r\n"
+              format: basic_html
+              summary: ''
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 0143a8a5-caff-4d32-b83c-3c56f78f48bd
+          bundle: faq
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1592152269
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_faq_items:
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 70619bfc-27e4-404d-ba15-ca1791789816
+                  bundle: faq_qa
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1592152269
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  field_answer:
+                    -
+                      value: "<p>Any 3rd party code for :</p>\r\n\r\n<p>Graphs</p>\r\n\r\n<p>Video</p>\r\n\r\n<p>Tweets</p>\r\n"
+                      format: basic_html
+                  field_question:
+                    -
+                      value: 'Use Cases'
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: f3e169db-2c47-4bb7-99ba-3e1afe1b0bd5
+                  bundle: faq_qa
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1592152282
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  field_answer:
+                    -
+                      value: "<p>Paragraph Type: Cards</p>\r\n\r\n<p><strong>Label:</strong>&nbsp;Embed&nbsp;<strong>Machine Name:&nbsp;</strong>embed</p>\r\n\r\n<p><strong>Fields:&nbsp;</strong>Script</p>\r\n"
+                      format: basic_html
+                  field_question:
+                    -
+                      value: 'Tech Notes'
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 28cce20c-d2c9-4a9c-9892-84143731723c
+                  bundle: faq_qa
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1592152293
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  field_answer:
+                    -
+                      value: "<p>The script is the only mandatory field</p>\r\n"
+                      format: basic_html
+                  field_question:
+                    -
+                      value: 'Required Fields'
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: f3904524-a55b-4515-8d67-bc20ee5900a9
+          bundle: embed
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1592152313
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_script:
+            -
+              value: '<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Time to celebrate🥂Srijan is now among the top 5 Drupal Contributors globally. check it out here: <a href="https://t.co/7HuDByDNQx">https://t.co/7HuDByDNQx</a><a href="https://twitter.com/hashtag/Drupal?src=hash&amp;ref_src=twsrc%5Etfw">#Drupal</a> <a href="https://twitter.com/hashtag/DrupalContribution?src=hash&amp;ref_src=twsrc%5Etfw">#DrupalContribution</a> <a href="https://twitter.com/hashtag/DrupalServices?src=hash&amp;ref_src=twsrc%5Etfw">#DrupalServices</a> <a href="https://twitter.com/hashtag/DrupalCompany?src=hash&amp;ref_src=twsrc%5Etfw">#DrupalCompany</a> <a href="https://t.co/ReuJ92xodm">pic.twitter.com/ReuJ92xodm</a></p>&mdash; SRIJAN (@Srijan) <a href="https://twitter.com/Srijan/status/1266345920788000769?ref_src=twsrc%5Etfw">May 29, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>'
+              format: scripts
+  field_social_sharing:
+    -
+      value: true
+  field_summary:
+    -
+      value: 'Embed component embeds external content, provided by an external application or another source of interactive content such as a browser plug-in'
+  field_thumbnail:
+    -
+      entity: 1b3c7017-f990-4088-a475-726827e37f7f
+  field_yoast_seo:
+    -
+      status: '0'
+      focus_keyword: ''
+      title: ''
+      description: ''

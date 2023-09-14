@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: e5c5e591-3069-4dd2-939a-0256b008d1ef
+  default_langcode: en
+  depends:
+    b89a6aaa-c0f3-43a5-ad45-9fdb0aabac20: user
+default:
+  uid:
+    -
+      entity: b89a6aaa-c0f3-43a5-ad45-9fdb0aabac20
+  filename:
+    -
+      value: placeholder2.png
+  uri:
+    -
+      value: 'public://2020-06/placeholder2.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 1580
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1694156131

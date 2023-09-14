@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: fa6428a6-8e33-4f40-ad4b-2bfd3722adbc
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: quote-default-icon.png
+  uri:
+    -
+      value: 'public://paragraphs_type_icon/quote-default-icon.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 2093
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1694155035

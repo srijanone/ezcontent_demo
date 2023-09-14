@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 8fd20d25-475e-4680-9a50-6203bccb612e
+  default_langcode: en
+  depends:
+    b89a6aaa-c0f3-43a5-ad45-9fdb0aabac20: user
+default:
+  uid:
+    -
+      entity: b89a6aaa-c0f3-43a5-ad45-9fdb0aabac20
+  filename:
+    -
+      value: drupal_community.png
+  uri:
+    -
+      value: 'public://2020-04/drupal_community.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 79609
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1586422553

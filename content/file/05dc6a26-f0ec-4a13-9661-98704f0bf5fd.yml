@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 05dc6a26-f0ec-4a13-9661-98704f0bf5fd
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 0
+  filename:
+    -
+      value: text-default-icon.png
+  uri:
+    -
+      value: 'public://paragraphs_type_icon/text-default-icon.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 1251
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1694154681

@@ -1,0 +1,43 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 18490c09-a5cc-4241-b285-e7a31a9ce5d2
+  bundle: image
+  default_langcode: en
+  depends:
+    b89a6aaa-c0f3-43a5-ad45-9fdb0aabac20: user
+    e9b7711e-2259-4f7f-a85e-b5de4263fd5d: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: b89a6aaa-c0f3-43a5-ad45-9fdb0aabac20
+  name:
+    -
+      value: srijanhero_0.jpg
+  created:
+    -
+      value: 1592153451
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: '| Drupal'
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_media_image:
+    -
+      entity: e9b7711e-2259-4f7f-a85e-b5de4263fd5d
+      alt: ''
+      title: ''
+      width: 1600
+      height: 600

@@ -1,0 +1,55 @@
+_meta:
+  version: '1.0'
+  entity_type: user
+  uuid: b89a6aaa-c0f3-43a5-ad45-9fdb0aabac20
+  default_langcode: en
+default:
+  preferred_langcode:
+    -
+      value: en
+  preferred_admin_langcode:
+    -
+      value: en
+  name:
+    -
+      value: test-admin
+  mail:
+    -
+      value: test-admin@ezcontent.srijan.net
+  timezone:
+    -
+      value: Europe/Zurich
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1694156131
+  access:
+    -
+      value: 0
+  login:
+    -
+      value: 0
+  init:
+    -
+      value: test-admin@ezcontent.srijan.net
+  roles:
+    -
+      target_id: administrator
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: 'test-admin | Drupal'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: Drupal
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0

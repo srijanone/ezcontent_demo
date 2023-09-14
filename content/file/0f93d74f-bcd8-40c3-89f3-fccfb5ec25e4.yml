@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 0f93d74f-bcd8-40c3-89f3-fccfb5ec25e4
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: social_media-default-icon.png
+  uri:
+    -
+      value: 'public://paragraphs_type_icon/social_media-default-icon.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 10983
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1694155035

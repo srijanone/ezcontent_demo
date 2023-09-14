@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: fd831049-4672-4304-bbfc-2f213d90bf19
+  default_langcode: en
+  depends:
+    b89a6aaa-c0f3-43a5-ad45-9fdb0aabac20: user
+default:
+  uid:
+    -
+      entity: b89a6aaa-c0f3-43a5-ad45-9fdb0aabac20
+  filename:
+    -
+      value: decoupled.png
+  uri:
+    -
+      value: 'public://2020-04/decoupled.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 71148
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1586422451

@@ -1,0 +1,34 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: fd313da5-52cf-49fc-9951-b5da21bbe260
+  bundle: embed_block
+  default_langcode: en
+  depends:
+    b89a6aaa-c0f3-43a5-ad45-9fdb0aabac20: user
+default:
+  revision_user:
+    -
+      entity: b89a6aaa-c0f3-43a5-ad45-9fdb0aabac20
+  status:
+    -
+      value: true
+  info:
+    -
+      value: 'Home page lead generation form'
+  reusable:
+    -
+      value: true
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: '| Drupal'
+  field_script:
+    -
+      value: "<!--[if lte IE 8]>\r\n<script charset=\"utf-8\" type=\"text/javascript\" src=\"//js.hsforms.net/forms/v2-legacy.js\"></script>\r\n<![endif]-->\r\n<script charset=\"utf-8\" type=\"text/javascript\" src=\"//js.hsforms.net/forms/v2.js\"></script>\r\n<script>\r\n  hbspt.forms.create({\r\n    portalId: \"2322889\",\r\n    formId: \"1b52c48b-c298-45fc-9fdb-b89ed124c30a\"\r\n});\r\n</script>"
+      format: scripts

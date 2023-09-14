@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: e7250503-dd1c-4ed4-9a5e-a57d4843c26a
+  default_langcode: en
+  depends:
+    b89a6aaa-c0f3-43a5-ad45-9fdb0aabac20: user
+default:
+  uid:
+    -
+      entity: b89a6aaa-c0f3-43a5-ad45-9fdb0aabac20
+  filename:
+    -
+      value: firstcard.jpg
+  uri:
+    -
+      value: 'public://2020-04/firstcard.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 774365
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1586424520

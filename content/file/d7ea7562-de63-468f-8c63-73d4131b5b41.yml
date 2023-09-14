@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: d7ea7562-de63-468f-8c63-73d4131b5b41
+  default_langcode: en
+  depends:
+    b89a6aaa-c0f3-43a5-ad45-9fdb0aabac20: user
+default:
+  uid:
+    -
+      entity: b89a6aaa-c0f3-43a5-ad45-9fdb0aabac20
+  filename:
+    -
+      value: library.png
+  uri:
+    -
+      value: 'public://2020-06/library.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 4743
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1592382215

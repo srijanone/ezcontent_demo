@@ -1,0 +1,58 @@
+_meta:
+  version: '1.0'
+  entity_type: paragraphs_library_item
+  uuid: 0e10b221-8641-4bdd-baae-d3d946f251af
+  default_langcode: en
+  depends:
+    b89a6aaa-c0f3-43a5-ad45-9fdb0aabac20: user
+    18490c09-a5cc-4241-b285-e7a31a9ce5d2: media
+default:
+  revision_uid:
+    -
+      entity: b89a6aaa-c0f3-43a5-ad45-9fdb0aabac20
+  status:
+    -
+      value: true
+  label:
+    -
+      value: 'reusable sample'
+  paragraphs:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: d947386f-ba8c-4779-9db9-5bf3e2039438
+          bundle: assets
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1592153405
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_media:
+            -
+              entity: 18490c09-a5cc-4241-b285-e7a31a9ce5d2
+  created:
+    -
+      value: 1592153405
+  uid:
+    -
+      entity: b89a6aaa-c0f3-43a5-ad45-9fdb0aabac20
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: '| Drupal'

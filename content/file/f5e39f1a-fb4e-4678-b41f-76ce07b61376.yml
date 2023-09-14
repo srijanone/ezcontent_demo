@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: f5e39f1a-fb4e-4678-b41f-76ce07b61376
+  default_langcode: en
+  depends:
+    b89a6aaa-c0f3-43a5-ad45-9fdb0aabac20: user
+default:
+  uid:
+    -
+      entity: b89a6aaa-c0f3-43a5-ad45-9fdb0aabac20
+  filename:
+    -
+      value: frontend_of_choice.png
+  uri:
+    -
+      value: 'public://2020-04/frontend_of_choice.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 108922
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1586422325

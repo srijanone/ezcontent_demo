@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: f671204e-7f89-4d7f-945c-e57d571accf8
+  default_langcode: en
+  depends:
+    b89a6aaa-c0f3-43a5-ad45-9fdb0aabac20: user
+default:
+  uid:
+    -
+      entity: b89a6aaa-c0f3-43a5-ad45-9fdb0aabac20
+  filename:
+    -
+      value: map.png
+  uri:
+    -
+      value: 'public://2020-06/map.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 16359
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1592382012

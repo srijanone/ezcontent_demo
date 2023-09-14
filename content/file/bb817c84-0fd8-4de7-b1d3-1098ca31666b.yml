@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: bb817c84-0fd8-4de7-b1d3-1098ca31666b
+  default_langcode: en
+  depends:
+    b89a6aaa-c0f3-43a5-ad45-9fdb0aabac20: user
+default:
+  uid:
+    -
+      entity: b89a6aaa-c0f3-43a5-ad45-9fdb0aabac20
+  filename:
+    -
+      value: I1hoUDzXIRQ.jpg
+  uri:
+    -
+      value: 'public://video_thumbnails/I1hoUDzXIRQ.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 82453
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1694156131

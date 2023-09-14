@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: f14ab7d7-638a-4f47-8347-0cb1a4564645
+  default_langcode: en
+  depends:
+    b89a6aaa-c0f3-43a5-ad45-9fdb0aabac20: user
+default:
+  uid:
+    -
+      entity: b89a6aaa-c0f3-43a5-ad45-9fdb0aabac20
+  filename:
+    -
+      value: social.png
+  uri:
+    -
+      value: 'public://2020-06/social.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 24979
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1592382020

@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: f219af6b-4c89-4784-a13a-bde54d7a3759
+  default_langcode: en
+  depends:
+    b89a6aaa-c0f3-43a5-ad45-9fdb0aabac20: user
+default:
+  uid:
+    -
+      entity: b89a6aaa-c0f3-43a5-ad45-9fdb0aabac20
+  filename:
+    -
+      value: faq.png
+  uri:
+    -
+      value: 'public://2020-06/faq.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 9510
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1592382163

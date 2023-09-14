@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: fae3c2c8-67eb-4576-bc89-9f7100b5e2d3
+  default_langcode: en
+  depends:
+    b89a6aaa-c0f3-43a5-ad45-9fdb0aabac20: user
+default:
+  uid:
+    -
+      entity: b89a6aaa-c0f3-43a5-ad45-9fdb0aabac20
+  filename:
+    -
+      value: create_content.png
+  uri:
+    -
+      value: 'public://2020-04/create_content.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 61775
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1586422151

@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 90680e53-35aa-4554-9c41-775afd768bde
+  default_langcode: en
+  depends:
+    b89a6aaa-c0f3-43a5-ad45-9fdb0aabac20: user
+default:
+  uid:
+    -
+      entity: b89a6aaa-c0f3-43a5-ad45-9fdb0aabac20
+  filename:
+    -
+      value: referenced.png
+  uri:
+    -
+      value: 'public://2020-06/referenced.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 10753
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1592382242

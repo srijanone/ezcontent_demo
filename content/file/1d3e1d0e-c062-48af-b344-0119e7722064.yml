@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 1d3e1d0e-c062-48af-b344-0119e7722064
+  default_langcode: en
+  depends:
+    b89a6aaa-c0f3-43a5-ad45-9fdb0aabac20: user
+default:
+  uid:
+    -
+      entity: b89a6aaa-c0f3-43a5-ad45-9fdb0aabac20
+  filename:
+    -
+      value: twitter.png
+  uri:
+    -
+      value: 'public://media-icons/generic/twitter.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 4064
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1694156131

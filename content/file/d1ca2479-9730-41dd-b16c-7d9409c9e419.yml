@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: d1ca2479-9730-41dd-b16c-7d9409c9e419
+  default_langcode: en
+  depends:
+    b89a6aaa-c0f3-43a5-ad45-9fdb0aabac20: user
+default:
+  uid:
+    -
+      entity: b89a6aaa-c0f3-43a5-ad45-9fdb0aabac20
+  filename:
+    -
+      value: embed.png
+  uri:
+    -
+      value: 'public://2020-06/embed.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 9337
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1592381961

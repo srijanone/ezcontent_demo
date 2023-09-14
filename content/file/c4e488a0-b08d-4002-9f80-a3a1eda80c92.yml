@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: c4e488a0-b08d-4002-9f80-a3a1eda80c92
+  default_langcode: en
+  depends:
+    b89a6aaa-c0f3-43a5-ad45-9fdb0aabac20: user
+default:
+  uid:
+    -
+      entity: b89a6aaa-c0f3-43a5-ad45-9fdb0aabac20
+  filename:
+    -
+      value: page_builder.png
+  uri:
+    -
+      value: 'public://2020-04/page_builder.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 36273
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1586422250

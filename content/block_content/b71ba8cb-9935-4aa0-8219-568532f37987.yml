@@ -1,0 +1,81 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: b71ba8cb-9935-4aa0-8219-568532f37987
+  bundle: hero_media_block
+  default_langcode: en
+  depends:
+    b89a6aaa-c0f3-43a5-ad45-9fdb0aabac20: user
+    263142b2-8ef4-49de-b559-413ceefe01eb: media
+default:
+  revision_user:
+    -
+      entity: b89a6aaa-c0f3-43a5-ad45-9fdb0aabac20
+  status:
+    -
+      value: true
+  info:
+    -
+      value: 'Hero block for home page landing page'
+  reusable:
+    -
+      value: true
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: '| Drupal'
+  field_card:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 49ee2785-94cd-4d6f-9013-501eb20004dc
+          bundle: card
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1586421912
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_link:
+            -
+              uri: 'internal:#'
+              title: 'Learn More'
+              options: {  }
+          field_media:
+            -
+              entity: 263142b2-8ef4-49de-b559-413ceefe01eb
+          field_short_title:
+            -
+              value: 'Good to have you.'
+          field_subhead:
+            -
+              value: 'One-Stop Drupal solution for Media & Publishing Enterprises'
+          field_summary:
+            -
+              value: "<p>An AI and ML-powered solution to deliver engaging digital experiences quickly and easily.</p>\r\n"
+              format: basic_html
+          field_text_background_color:
+            -
+              color: '#FF9300'
+              opacity: 0.37
+          field_text_position:
+            -
+              value: left
+          field_title:
+            -
+              value: 'Welcome to EzContent'
